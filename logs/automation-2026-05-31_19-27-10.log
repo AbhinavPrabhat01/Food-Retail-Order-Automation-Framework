@@ -1,0 +1,111 @@
+2026-05-31 19:27:11 INFO  base.BaseTest - 🚀 Test setup started
+2026-05-31 19:27:11 INFO  utils.DriverFactory - 🚀 Initializing Chrome WebDriver...
+2026-05-31 19:27:11 DEBUG utils.DriverFactory - ⚙️ Applied Chrome options for automation
+2026-05-31 19:27:11 DEBUG utils.DriverFactory - 📁 Using custom Chrome profile: Automation QA
+2026-05-31 19:27:12 INFO  utils.DriverFactory - ✅ Chrome WebDriver initialized successfully
+2026-05-31 19:27:12 INFO  base.BaseTest - ✅ Test setup completed
+2026-05-31 19:27:12 INFO  utils.ConfigReader - 📄 Loading configuration file...
+2026-05-31 19:27:12 INFO  utils.ConfigReader - ✅ Configuration file loaded successfully
+2026-05-31 19:27:12 DEBUG utils.ConfigReader - 🔍 Fetching config value for key: authURLQA
+2026-05-31 19:27:12 INFO  pages.Homepage - 🌐 Opening website: https://Devu$er1:@kamaipa$$w0rd@qa.papajohns.com/
+2026-05-31 19:27:15 INFO  pages.Homepage - ✅ Website opened successfully
+2026-05-31 19:27:15 INFO  pages.Homepage - Checking for cookies popup
+2026-05-31 19:27:15 INFO  utils.ElementFinder - Checking presence of optional element: Cookie accept button | Locator: By.id: onetrust-accept-btn-handler
+2026-05-31 19:27:17 INFO  utils.ElementFinder - Element not present (skipping): Cookie accept button
+2026-05-31 19:27:17 INFO  pages.Homepage - Checking for Papa Dough Blocker
+2026-05-31 19:27:17 INFO  utils.ElementFinder - Checking presence of optional element: Papa Dough Blocker | Locator: By.xpath: //button[@id='ixh98']
+2026-05-31 19:27:19 INFO  utils.ElementFinder - Element not present (skipping): Papa Dough Blocker
+2026-05-31 19:27:20 INFO  pages.Location - 📍 Setting location using local storage...
+2026-05-31 19:27:20 INFO  utils.LocalStorageHandler - 📍 Injecting location into localStorage...
+2026-05-31 19:27:20 DEBUG utils.LocalStorageHandler - 📄 Location JSON loaded successfully
+2026-05-31 19:27:20 INFO  utils.LocalStorageHandler - ✅ Location injected into localStorage and page refreshed
+2026-05-31 19:27:20 DEBUG pages.Location - ⏳ Waiting for page to stabilize after location set
+2026-05-31 19:27:24 INFO  pages.Location - ✅ Location set successfully
+2026-05-31 19:27:24 INFO  pages.Menu - 🌐 Opening menu page...
+2026-05-31 19:27:24 INFO  pages.Menu - ✅ Menu page opened successfully
+2026-05-31 19:27:24 INFO  services.MenuService - 🍕 Starting order: Only Pizza
+2026-05-31 19:27:24 INFO  utils.OrderConfigurationReader - 📄 Reading menu configuration JSON...
+2026-05-31 19:27:25 INFO  utils.OrderConfigurationReader - ✅ Menu configuration loaded successfully
+2026-05-31 19:27:25 DEBUG utils.OrderConfigurationReader - 🔍 Extracted order data from JSON
+2026-05-31 19:27:25 INFO  services.MenuService - ➡️ Pizza Item → Product: Works, Quantity: 2
+2026-05-31 19:27:25 INFO  pages.Menu - 📂 Selecting category: pizza
+2026-05-31 19:27:25 INFO  utils.ElementFinder - 👉 Attempting to click: pizza Category | Locator: By.xpath: //a[@data-id='pizza']
+2026-05-31 19:27:26 INFO  utils.ElementFinder - ✅ Click successful: pizza Category
+2026-05-31 19:27:26 INFO  pages.Menu - 🍕 Selecting product: Works
+2026-05-31 19:27:26 INFO  utils.ElementFinder - 👉 Attempting to click: Works Product | Locator: By.xpath: //h4[contains(text(),'Works')]
+2026-05-31 19:27:26 INFO  utils.ElementFinder - ✅ Click successful: Works Product
+2026-05-31 19:27:26 INFO  pages.Menu - 🔢 Selecting quantity: 2
+2026-05-31 19:27:30 INFO  pages.Menu - ✅ Quantity selected successfully: 2
+2026-05-31 19:27:30 INFO  pages.Menu - ➕ Adding item to cart
+2026-05-31 19:27:30 INFO  utils.ElementFinder - 👉 Attempting to click: Add To Order | Locator: By.xpath: //button[@data-id="add-to-cart"]
+2026-05-31 19:27:30 INFO  utils.ElementFinder - ✅ Click successful: Add To Order
+2026-05-31 19:27:30 INFO  services.MenuService - ✅ Pizza-only order completed
+2026-05-31 19:27:30 INFO  pages.Menu - 🛒 Opening cart page
+2026-05-31 19:27:30 INFO  utils.ElementFinder - 👉 Attempting to click: Open Cart | Locator: By.xpath: //a[@href="/order/cart"]
+2026-05-31 19:27:31 WARN  utils.ElementFinder - ⚠️ Click intercepted [Open Cart], retrying... Remaining: 2
+2026-05-31 19:27:32 WARN  utils.ElementFinder - 🔁 Stale element [Open Cart], retrying... Remaining: 1
+2026-05-31 19:27:32 INFO  utils.ElementFinder - ✅ Click successful: Open Cart
+2026-05-31 19:27:32 INFO  utils.ElementFinder - 👉 Attempting to click: Checkout | Locator: By.xpath: //button[.//span[text()='Check out']]
+2026-05-31 19:27:35 INFO  utils.ElementFinder - ✅ Click successful: Checkout
+2026-05-31 19:27:35 INFO  pages.Checkout - 🧾 Checkout page initialized
+2026-05-31 19:27:35 INFO  services.CheckoutService - 🛠️ CheckoutService initialized
+2026-05-31 19:27:35 INFO  services.CheckoutService - 📦 Fetching checkout configuration...
+2026-05-31 19:27:35 INFO  utils.OrderConfigurationReader - 📄 Reading menu configuration JSON...
+2026-05-31 19:27:35 INFO  utils.OrderConfigurationReader - ✅ Menu configuration loaded successfully
+2026-05-31 19:27:35 DEBUG utils.OrderConfigurationReader - 🔍 Extracted order data from JSON
+2026-05-31 19:27:35 INFO  services.CheckoutService - ➡️ Processing new checkout data
+2026-05-31 19:27:35 INFO  services.CheckoutService - 💳 Payment type: Credit
+2026-05-31 19:27:35 DEBUG utils.ConfigReader - 🔍 Fetching config value for key: cardNumber
+2026-05-31 19:27:35 DEBUG utils.ConfigReader - 🔍 Fetching config value for key: expiry
+2026-05-31 19:27:35 DEBUG utils.ConfigReader - 🔍 Fetching config value for key: cvv
+2026-05-31 19:27:35 DEBUG utils.ConfigReader - 🔍 Fetching config value for key: zip
+2026-05-31 19:27:35 INFO  services.CheckoutService - 💰 Tip: 400
+2026-05-31 19:27:35 INFO  services.CheckoutService - 🔐 Card details fetched from config
+2026-05-31 19:27:35 INFO  services.CheckoutService - 👤 Customer: Temp User
+2026-05-31 19:27:35 INFO  pages.Checkout - 💳 Selecting payment method: Credit
+2026-05-31 19:27:35 INFO  utils.ElementFinder - 👉 Attempting to click: Payment Method | Locator: By.xpath: //span[contains(text(),'Credit')]
+2026-05-31 19:27:37 INFO  utils.ElementFinder - ✅ Click successful: Payment Method
+2026-05-31 19:27:37 INFO  pages.Checkout - ✅ Payment method selected: Credit
+2026-05-31 19:27:37 INFO  services.CheckoutService - ➡️ Executing credit card flow
+2026-05-31 19:27:37 INFO  pages.Checkout - 💰 Providing tip: 400
+2026-05-31 19:27:37 INFO  utils.ElementFinder - 👉 Attempting to enter text in: Tip input | Locator: By.xpath: //input[@placeholder='Enter a custom amount']
+2026-05-31 19:27:37 INFO  utils.ElementFinder - ✅ Text entered successfully in: Tip input → [400]
+2026-05-31 19:27:37 INFO  utils.ElementFinder - 👉 Attempting to click: Tip Apply Button | Locator: By.xpath: //input[@placeholder='Enter a custom amount']/following-sibling::button
+2026-05-31 19:27:38 INFO  utils.ElementFinder - ✅ Click successful: Tip Apply Button
+2026-05-31 19:27:38 INFO  pages.Checkout - ✅ Tip applied successfully
+2026-05-31 19:27:38 INFO  pages.Checkout - 💳 Entering card details
+2026-05-31 19:27:38 INFO  utils.ElementFinder - 👉 Attempting to enter text in: Card number | Locator: By.xpath: //input[@id = 'payment.creditCard']
+2026-05-31 19:27:38 INFO  utils.ElementFinder - ✅ Text entered successfully in: Card number → [6011000990911111]
+2026-05-31 19:27:38 INFO  utils.ElementFinder - 👉 Attempting to enter text in: Expiry | Locator: By.xpath: //input[@name = 'expirationDate']
+2026-05-31 19:27:38 INFO  utils.ElementFinder - ✅ Text entered successfully in: Expiry → [0828]
+2026-05-31 19:27:38 INFO  utils.ElementFinder - 👉 Attempting to enter text in: CVV | Locator: By.xpath: //input[@name = 'cvv']
+2026-05-31 19:27:38 INFO  utils.ElementFinder - ✅ Text entered successfully in: CVV → [999]
+2026-05-31 19:27:38 INFO  utils.ElementFinder - 👉 Attempting to enter text in: Cardholder name | Locator: By.xpath: //input[@name = 'payment.nameCard']
+2026-05-31 19:27:38 INFO  utils.ElementFinder - ✅ Text entered successfully in: Cardholder name → [Temp]
+2026-05-31 19:27:38 INFO  utils.ElementFinder - 👉 Attempting to enter text in: Postal Code | Locator: By.xpath: //input[@name = 'payment.billingPostalCode']
+2026-05-31 19:27:39 INFO  utils.ElementFinder - ✅ Text entered successfully in: Postal Code → [40299]
+2026-05-31 19:27:39 INFO  pages.Checkout - ✅ Card details entered successfully
+2026-05-31 19:27:39 INFO  services.CheckoutService - ✅ Payment details entered successfully
+2026-05-31 19:27:39 INFO  pages.Checkout - 📇 Entering contact information
+2026-05-31 19:27:39 INFO  utils.ElementFinder - 👉 Attempting to enter text in: First Name field | Locator: By.xpath: //input[@name='contactInfo.firstName']
+2026-05-31 19:27:39 INFO  utils.ElementFinder - ✅ Text entered successfully in: First Name field → [Temp]
+2026-05-31 19:27:39 INFO  utils.ElementFinder - 👉 Attempting to enter text in: Last Name field | Locator: By.xpath: //input[@name='contactInfo.lastName']
+2026-05-31 19:27:39 INFO  utils.ElementFinder - ✅ Text entered successfully in: Last Name field → [User]
+2026-05-31 19:27:39 INFO  utils.ElementFinder - 👉 Attempting to enter text in: Email field | Locator: By.xpath: //input[@name='contactInfo.email']
+2026-05-31 19:27:39 INFO  utils.ElementFinder - ✅ Text entered successfully in: Email field → [tempuser@gmail.com]
+2026-05-31 19:27:39 INFO  utils.ElementFinder - 👉 Attempting to enter text in: Phone field | Locator: By.xpath: //input[@placeholder='(___) ___-____']
+2026-05-31 19:27:40 INFO  utils.ElementFinder - ✅ Text entered successfully in: Phone field → [2222222222]
+2026-05-31 19:27:40 INFO  pages.Checkout - ✅ Contact information entered successfully
+2026-05-31 19:27:40 INFO  services.CheckoutService - ✅ Contact information submitted
+2026-05-31 19:27:40 INFO  pages.Checkout - 📝 Reviewing order
+2026-05-31 19:27:40 INFO  utils.ElementFinder - Checking presence of optional element: Policy Check | Locator: By.xpath: //input[@name='policyCheck']
+2026-05-31 19:27:42 INFO  utils.ElementFinder - Element not present (skipping): Policy Check
+2026-05-31 19:27:42 INFO  utils.ElementFinder - 👉 Attempting to click: Review button | Locator: By.xpath: //button[.//span[text()='Review order']]
+2026-05-31 19:27:42 INFO  utils.ElementFinder - ✅ Click successful: Review button
+2026-05-31 19:27:42 INFO  pages.Checkout - ✅ Review order clicked successfully
+2026-05-31 19:27:42 INFO  services.CheckoutService - ✅ Review order step completed
+2026-05-31 19:27:42 INFO  services.CheckoutService - 🎯 Checkout flow completed for all entries
+2026-05-31 19:27:42 INFO  base.BaseTest - 🧹 Test teardown started
+2026-05-31 19:27:42 INFO  base.BaseTest - ✅ Test passed: orderProducts
+2026-05-31 19:27:42 INFO  base.BaseTest - 🛑 Browser closed
+2026-05-31 19:27:42 INFO  base.BaseTest - ✅ Test teardown completed

@@ -1,0 +1,367 @@
+{
+  "state": {
+    "store": {
+      "allowMultipleGiftCards": true,
+      "allowPaoWhenClosedFlag": true,
+      "allowPlanAheadOrderFlag": true,
+      "allowPayShare": true,
+      "trackDeliveryOrders": true,
+      "trackCarryoutOrders": true,
+      "altPhoneNumber": null,
+      "distance": 0.07829276994,
+      "guestOrderCheckout": "ALLOW",
+      "storeLocation": {
+        "address1": "101 S PARKER ST",
+        "address2": null,
+        "address3": null,
+        "address4": null,
+        "aptCode": null,
+        "campusAddress": {
+          "buildingNumber": null,
+          "campus": null,
+          "campusBuilding": null,
+          "roomNumber": null
+        },
+        "city": "OLATHE",
+        "county": null,
+        "state": "KS",
+        "country": "USA",
+        "geocodeQuality": null,
+        "latitude": 38.88159,
+        "locationType": null,
+        "longitude": -94.83534,
+        "postalCode": "66061-4043",
+        "territoryId": 17,
+        "placeId": null
+      },
+      "maxOrderAmt": 500,
+      "minCarryoutAmt": 0,
+      "minDeliveryAmt": 6.99,
+      "phoneNumber": "(913)768-7772",
+      "storeHours": [
+        {
+          "dayOfWeek": "SUNDAY",
+          "holiday": null,
+          "holidayClosedFlag": null,
+          "holidayMessage": null,
+          "pickupOpenTime": "08:00:00.000",
+          "pickupCloseTime": "05:55:00.000",
+          "storeCloseTime": "05:55:00.000",
+          "storeOpenTime": "09:00:00.000",
+          "curbsideOpenTime": "10:00:00.000",
+          "curbsideCloseTime": "05:55:00.000",
+          "curbsideViewBeginTime": null,
+          "curbsideViewEndTime": null
+        },
+        {
+          "dayOfWeek": "MONDAY",
+          "holiday": null,
+          "holidayClosedFlag": null,
+          "holidayMessage": null,
+          "pickupOpenTime": "07:00:00.000",
+          "pickupCloseTime": "05:55:00.000",
+          "storeCloseTime": "05:55:00.000",
+          "storeOpenTime": "07:00:00.000",
+          "curbsideOpenTime": "07:00:00.000",
+          "curbsideCloseTime": "05:00:00.000",
+          "curbsideViewBeginTime": null,
+          "curbsideViewEndTime": null
+        },
+        {
+          "dayOfWeek": "TUESDAY",
+          "holiday": null,
+          "holidayClosedFlag": null,
+          "holidayMessage": null,
+          "pickupOpenTime": "07:00:00.000",
+          "pickupCloseTime": "05:55:00.000",
+          "storeCloseTime": "05:55:00.000",
+          "storeOpenTime": "07:00:00.000",
+          "curbsideOpenTime": "07:00:00.000",
+          "curbsideCloseTime": "05:55:00.000",
+          "curbsideViewBeginTime": null,
+          "curbsideViewEndTime": null
+        },
+        {
+          "dayOfWeek": "WEDNESDAY",
+          "holiday": null,
+          "holidayClosedFlag": null,
+          "holidayMessage": null,
+          "pickupOpenTime": "07:00:00.000",
+          "pickupCloseTime": "05:55:00.000",
+          "storeCloseTime": "05:55:00.000",
+          "storeOpenTime": "07:00:00.000",
+          "curbsideOpenTime": "07:00:00.000",
+          "curbsideCloseTime": "05:30:00.000",
+          "curbsideViewBeginTime": null,
+          "curbsideViewEndTime": null
+        },
+        {
+          "dayOfWeek": "THURSDAY",
+          "holiday": null,
+          "holidayClosedFlag": null,
+          "holidayMessage": null,
+          "pickupOpenTime": "07:00:00.000",
+          "pickupCloseTime": "05:55:00.000",
+          "storeCloseTime": "05:55:00.000",
+          "storeOpenTime": "07:00:00.000",
+          "curbsideOpenTime": "07:00:00.000",
+          "curbsideCloseTime": "05:55:00.000",
+          "curbsideViewBeginTime": null,
+          "curbsideViewEndTime": null
+        },
+        {
+          "dayOfWeek": "FRIDAY",
+          "holiday": null,
+          "holidayClosedFlag": null,
+          "holidayMessage": null,
+          "pickupOpenTime": "07:00:00.000",
+          "pickupCloseTime": "05:55:00.000",
+          "storeCloseTime": "05:55:00.000",
+          "storeOpenTime": "07:00:00.000",
+          "curbsideOpenTime": "07:00:00.000",
+          "curbsideCloseTime": "17:30:00.000",
+          "curbsideViewBeginTime": null,
+          "curbsideViewEndTime": null
+        },
+        {
+          "dayOfWeek": "SATURDAY",
+          "holiday": null,
+          "holidayClosedFlag": null,
+          "holidayMessage": null,
+          "pickupOpenTime": "08:05:00.000",
+          "pickupCloseTime": "01:00:00.000",
+          "storeCloseTime": "02:00:00.000",
+          "storeOpenTime": "08:00:00.000",
+          "curbsideOpenTime": "09:00:00.000",
+          "curbsideCloseTime": "16:00:00.000",
+          "curbsideViewBeginTime": null,
+          "curbsideViewEndTime": null
+        }
+      ],
+      "storeId": 1925,
+      "storeMessages": [
+        {
+          "code": "NO_LARGE_BILLS",
+          "storeMessageId": 64,
+          "storeMessageType": "PAYMENT"
+        }
+      ],
+      "storePayments": [
+        {
+          "paymentCategory": {
+            "categoryId": 9,
+            "categoryName": "Visa Checkout"
+          },
+          "paymentMethods": [
+            {
+              "payMethodId": 14,
+              "payMethodName": "Visa Checkout",
+              "paymentFee": null
+            }
+          ]
+        },
+        {
+          "paymentCategory": {
+            "categoryId": 13,
+            "categoryName": "PayPal MC"
+          },
+          "paymentMethods": [
+            {
+              "payMethodId": 20,
+              "payMethodName": "PayPal MC",
+              "paymentFee": null
+            }
+          ]
+        },
+        {
+          "paymentCategory": {
+            "categoryId": 3,
+            "categoryName": "Credit/Debit Card"
+          },
+          "paymentMethods": [
+            {
+              "payMethodId": 8,
+              "payMethodName": "Visa",
+              "paymentFee": null
+            },
+            {
+              "payMethodId": 7,
+              "payMethodName": "Mastercard",
+              "paymentFee": null
+            },
+            {
+              "payMethodId": 6,
+              "payMethodName": "American Express",
+              "paymentFee": null
+            },
+            {
+              "payMethodId": 5,
+              "payMethodName": "Discover",
+              "paymentFee": null
+            },
+            {
+              "payMethodId": 4,
+              "payMethodName": "Diners Club",
+              "paymentFee": null
+            },
+            {
+              "payMethodId": 19,
+              "payMethodName": "China Union Pay",
+              "paymentFee": null
+            },
+            {
+              "payMethodId": 9,
+              "payMethodName": "JCB",
+              "paymentFee": null
+            }
+          ]
+        },
+        {
+          "paymentCategory": {
+            "categoryId": 11,
+            "categoryName": "Google Pay"
+          },
+          "paymentMethods": [
+            {
+              "payMethodId": 16,
+              "payMethodName": "Pay With Google",
+              "paymentFee": null
+            }
+          ]
+        },
+        {
+          "paymentCategory": {
+            "categoryId": 10,
+            "categoryName": "Apple Pay"
+          },
+          "paymentMethods": [
+            {
+              "payMethodId": 15,
+              "payMethodName": "Apple Pay",
+              "paymentFee": null
+            }
+          ]
+        },
+        {
+          "paymentCategory": {
+            "categoryId": 1,
+            "categoryName": "Cash"
+          },
+          "paymentMethods": [
+            {
+              "payMethodId": 2,
+              "payMethodName": "Cash",
+              "paymentFee": null
+            }
+          ]
+        },
+        {
+          "paymentCategory": {
+            "categoryId": 14,
+            "categoryName": "VENMO"
+          },
+          "paymentMethods": [
+            {
+              "payMethodId": 21,
+              "payMethodName": "Venmo",
+              "paymentFee": null
+            }
+          ]
+        },
+        {
+          "paymentCategory": {
+            "categoryId": 4,
+            "categoryName": "Gift Card"
+          },
+          "paymentMethods": [
+            {
+              "payMethodId": 1,
+              "payMethodName": "Gift Card",
+              "paymentFee": null
+            }
+          ]
+        }
+      ],
+      "storeProductRewardValues": [
+        {
+          "productTypeId": 1,
+          "promo": {
+            "englishPromoCode": "25PAPA",
+            "promoHeaderId": 3317
+          },
+          "rewardValue": 25,
+          "storeProductRewardValueId": 1720
+        }
+      ],
+      "storeStatus": {
+        "description": "Store is available online",
+        "storeStatusCode": "ACTIVE",
+        "storeStatusId": 1,
+        "storeStatusReasonId": 1,
+        "storeStatusReasonMessage": "Now Accepting Online Orders"
+      },
+      "territoryId": 17,
+      "timeZone": "CST",
+      "useDaylightTimeFlag": true,
+      "availabilityMessages": [
+        "Store #1925 is available for carryout only, but you can also place a delivery order for a future date during checkout."
+      ],
+      "storeOpen": false,
+      "lastUpdateTimeStamp": "2025-01-20T10:04:40.000Z",
+      "tax": [
+        {
+          "taxType": "BEV",
+          "taxRate": "9.48"
+        },
+        {
+          "taxType": "FOOD",
+          "taxRate": "9.48"
+        }
+      ],
+      "maxPaoCCDays": 21,
+      "availableForDelivery": false,
+      "availableForPickup": true,
+      "orderReadyTime": "2026-05-31T08:02:57",
+      "isCashDeliveryDisabled": false,
+      "isDroneDelivery": false,
+      "droneDeliveryOffset": null,
+      "droneVendor": null,
+      "curbsideEnabled": false,
+      "searchLocation": {
+        "address1": "100 South Parker Street",
+        "address2": null,
+        "address3": null,
+        "address4": null,
+        "aptCode": "NON",
+        "campusAddress": {
+          "buildingNumber": null,
+          "campus": null,
+          "campusBuilding": null,
+          "roomNumber": null
+        },
+        "city": "Olathe",
+        "county": null,
+        "state": "KS",
+        "country": "USA",
+        "geocodeQuality": null,
+        "latitude": 38.8818682,
+        "locationType": {
+          "locationDescription": "Residence",
+          "locationTypeEnum": "HOME",
+          "locationTypeId": 1,
+          "additionalAddress": {
+            "option": "NONE",
+            "info": ""
+          }
+        },
+        "longitude": -94.8339197,
+        "postalCode": "66061",
+        "territoryId": 17,
+        "placeId": null
+      }
+    },
+    "type": "DELIVERY",
+    "storedAt": 1780232578692
+  },
+  "version": 1
+}

@@ -1,0 +1,42 @@
+{
+  "Supported Categories": ["pizza","papadias","papabites","wings","sides","papabowls",
+    "desserts","drinks","dippingsauces","extras"],
+  "order": [
+    {
+      "category": "pizza",
+      "product": "Works",
+      "quantity": 2
+    },
+    {
+      "category": "drinks",
+      "product": "Pepper",
+      "quantity": 1
+    },
+    {
+      "category": "dippingsauces",
+      "product": "Buffalo Spicy",
+      "quantity": 5
+    },
+    {
+      "category": "wings",
+      "product": "Honey Chipotle",
+      "quantity": 1
+    },
+    {
+      "category": "desserts",
+      "product": "Brownie",
+      "quantity": 2
+    }
+  ],
+  "Supported payment": ["Credit","Cash"],
+  "checkout": [
+    {
+      "payment": "Credit",
+      "tip": "400",
+      "firstName": "Temp",
+      "lastName": "User",
+      "email": "tempuser@gmail.com",
+      "phone": "2222222222"
+    }
+  ]
+}
